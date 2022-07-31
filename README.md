@@ -18,15 +18,15 @@
 >* Create a database named **formfiller** in XAMPP. <br/>
 >* Create a table in formfiller having necessary fields as required and do the changes in the code as needed in SQL Query only. <br/>
 >* Install Selenium and MySQL connector in python using **pip** commands. <br/>
-###### To install Selenium: <br/>
+>* To install Selenium: <br/>
           pip install selenium <br/>
           
-###### To install MySQL Connector: <br/>
+>* To install MySQL Connector: <br/>
           python -m pip install mysql-connector-python <br/>
 
 >* Run the Python code. <br/>
 
-# Screenshots and Working Video <br/>
+## Screenshots and Working Video <br/>
 
 ###### Signup Form: To enter the details only once
 <img width="443" alt="image" src="https://user-images.githubusercontent.com/74672126/182042406-be38f56b-c484-46d9-a6e9-1399d957664f.png">
