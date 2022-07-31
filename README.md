@@ -14,14 +14,15 @@
 ###### Path in the Code Like this: <br/>
           C:\\Users\\krish\\OneDrive\\Documents\\Desktop\\formfiller\\edgedriver_win64\\msedgedriver.exe <br/>
 <img width="664" alt="image" src="https://user-images.githubusercontent.com/74672126/182042359-d2b34f49-2382-47d2-a2e6-fe8fa802c287.png">
+<br/>
 >* Look msedgedriver.exe added in the path of the code. <br/>
 >* Create a database named **formfiller** in XAMPP. <br/>
 >* Create a table in formfiller having necessary fields as required and do the changes in the code as needed in SQL Query only. <br/>
 >* Install Selenium and MySQL connector in python using **pip** commands. <br/>
->* To install Selenium: <br/>
+###### To install Selenium: <br/>
           pip install selenium <br/>
           
->* To install MySQL Connector: <br/>
+###### To install MySQL Connector: <br/>
           python -m pip install mysql-connector-python <br/>
 
 >* Run the Python code. <br/>
