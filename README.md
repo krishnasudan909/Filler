@@ -1,6 +1,6 @@
 # Filler - Automatic Web Form Filler <br/>
 
-## Working Vide <br/>
+## Working Video <br/>
 
 https://user-images.githubusercontent.com/74672126/182042525-ab4d9520-3cbc-4987-9b33-86b20c8a7996.mp4
 
