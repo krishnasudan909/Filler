@@ -220,15 +220,15 @@ def googleform():
     global googleform_screen
     googleform_screen = Tk()
     googleform_screen.title("form Form")
-    googleform_screen.geometry("600x750")
+    googleform_screen.geometry("400x400")
     global  formlink
     formlink = StringVar()
     Label(googleform_screen,width="300", text="Please enter the form link", bg="orange",fg="white").pack()
     Label(googleform_screen, text="Link * ",font=("Arial", 15)).place(x=60,y=40)
-    Entry(googleform_screen, textvariable=formlink).place(x=300,y=40,width=150,height=30)
-    Button(googleform_screen, text="Submit", width=10, height=1, bg="orange",command=googleform_action).place(x=300,y=300)
-    Button(googleform_screen, text="logout", width=10, height=1, bg="orange",command=googleform_screen.destroy).place(x=380,y=350)
-    Button(googleform_screen, text="exit", width=10, height=1, bg="orange",command=exitform).place(x=380,y=390)
+    Entry(googleform_screen, textvariable=formlink).place(x=130,y=40,width=250,height=30)
+    Button(googleform_screen, text="Submit", width=10, height=1, bg="orange",command=googleform_action).place(x=170,y=180)
+    Button(googleform_screen, text="logout", width=10, height=1, bg="orange",command=googleform_screen.destroy).place(x=170,y=220)
+    Button(googleform_screen, text="exit", width=10, height=1, bg="orange",command=exitform).place(x=170,y=260)
     googleform_screen.mainloop()
     
    
