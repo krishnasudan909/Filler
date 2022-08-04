@@ -33,5 +33,3 @@ https://user-images.githubusercontent.com/74672126/182907543-3a5f37b5-e9fd-4e3f-
 
 >* Run the Python code. <br/>
 
-###### Poster of the Project
-![Form Filler Poster](https://user-images.githubusercontent.com/74672126/182042556-cba9983d-22cc-4692-8170-74410a6e26c1.jpeg)
