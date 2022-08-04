@@ -157,33 +157,31 @@ def googleform_action():
 
 
 
-    driver = webdriver.Edge(executable_path='C:\\Users\\krish\\OneDrive\\Documents\\Desktop\\formfiller\\edgedriver_win64\\msedgedriver.exe')
+    driver = webdriver.Edge(executable_path=r"C:\Users\krish\OneDrive\Documents\Desktop\Filler\edgedriver_win64\msedgedriver.exe")
     driver.get(link)
     
     wait = WebDriverWait(driver,4)
-    textboxes = wait.until(EC.visibility_of_all_elements_located((By.CLASS_NAME, "quantumWizTextinputPaperinputInput")))
-    # textboxes = driver.find_elements(By.CLASS_NAME, "quantumWizTextinputPaperinputInput")
+    textboxes = wait.until(EC.visibility_of_all_elements_located((By.CLASS_NAME, "whsOnd.zHQkBf")))
     sleep(2)
     counter = 1
     textcounter = 0
     for i in range(len(textboxes)):
-
         id = "i"
         id = id + str(counter)
         elements = driver.find_element(By.ID, id)
-        if elements.text == "Name":
+        if "name" in (str(elements.text)).lower():
             textboxes[textcounter].send_keys(result[1])
-        elif elements.text == "E-mail":
+        elif "mail" in (str(elements.text)).lower():
             if check(result[3]) == 1:
                 textboxes[textcounter].send_keys(result[3])
             else:
                 print("E-mail NULL or faulty")
-        elif elements.text == "Contact number":
+        elif "number" in (str(elements.text)).lower():
             if len(str(result[5])) == 10:
                 textboxes[textcounter].send_keys(int(result[5]))
             else:
                 print("Phone number NULL or faulty")
-        elif elements.text == "Gender":
+        elif "gender" in (str(elements.text)).lower():
             if result[4] == None:
                 print("The gender is not defined")
             else:
