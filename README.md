@@ -1,5 +1,9 @@
 # Filler - Automatic Web Form Filler <br/>
 
+## Working Vide <br/>
+
+https://user-images.githubusercontent.com/74672126/182042525-ab4d9520-3cbc-4987-9b33-86b20c8a7996.mp4
+
 >* A Software which fills the respective fields of the form **automatically** when the **URL** of the form is provided. <br/>
 >* User has to add the details only once after that every time corresponding fields will get filled up automatically. And, the user can edit them afterwards. <br/>
 >* Technologies used to built this software are: **Python, Selenium, MySQL**. <br/>
@@ -28,20 +32,6 @@
           python -m pip install mysql-connector-python <br/>
 
 >* Run the Python code. <br/>
-
-## Screenshots and Working Video <br/>
-
-###### Signup Form: To enter the details only once
-<img width="443" alt="image" src="https://user-images.githubusercontent.com/74672126/182042406-be38f56b-c484-46d9-a6e9-1399d957664f.png">
-
-###### Login Form: To use the functionality
-<img width="221" alt="image" src="https://user-images.githubusercontent.com/74672126/182042434-69668598-2f52-41cb-b69c-a056f1fe21a1.png">
-
-###### Text box: To enter the URL of the form
-<img width="442" alt="image" src="https://user-images.githubusercontent.com/74672126/182042453-ec463e81-7a66-43bf-a0d5-58d891ac5d17.png">
-
-###### Video of Form getting filled automatically
-https://user-images.githubusercontent.com/74672126/182042525-ab4d9520-3cbc-4987-9b33-86b20c8a7996.mp4
 
 ###### Poster of the Project
 ![Form Filler Poster](https://user-images.githubusercontent.com/74672126/182042556-cba9983d-22cc-4692-8170-74410a6e26c1.jpeg)
